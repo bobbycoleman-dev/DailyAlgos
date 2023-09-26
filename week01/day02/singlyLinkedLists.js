@@ -182,7 +182,7 @@ class SinglyLinkedList {
 		let sum = 0;
 		let listLength = 0;
 		let runner = this.head;
-		while (runner !== null) {
+		while (runner) {
 			listLength++;
 			sum += runner.data;
 			runner = runner.next;
