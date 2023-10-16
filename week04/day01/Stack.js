@@ -94,7 +94,7 @@ class LinkedListStack {
 	}
 
 	pop() {
-		if (!this.head) return undefined;
+		if (!this.head) return null;
 
 		let removed = this.head;
 		this.head = removed.next;
@@ -103,7 +103,7 @@ class LinkedListStack {
 	}
 
 	peek() {
-		if (!this.head) return undefined;
+		if (!this.head) return null;
 		return this.head.data;
 	}
 
